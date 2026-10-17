@@ -1,1 +1,215 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <!-- Encodage et affichage mobile -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IMPACT TECH — Découvrez notre équipe | VOXI</title>
+  <meta name="description" content="IMPACT TECH présente VOXI, une application mobile pour faciliter la communication des personnes muettes ou ayant des difficultés à parler.">
 
+  <!-- Liaison avec la feuille de style -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Lien d'accessibilité : permet de passer directement au contenu -->
+  <a class="skip-link" href="#accueil">Aller au contenu</a>
+
+  <!-- ===== EN-TÊTE ET NAVIGATION ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#accueil" aria-label="IMPACT TECH, retour à l'accueil">IMPACT TECH</a>
+
+      <nav aria-label="Navigation principale">
+        <ul class="nav-list">
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#projet">Notre projet</a></li>
+          <li><a href="#objectifs">Nos objectifs</a></li>
+          <li><a href="#equipe">Notre équipe</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== SECTION D'ACCUEIL ===== -->
+    <section id="accueil" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Ensemble, donnons une voix à chacun</h1>
+          <p class="lead">
+            IMPACT TECH est une équipe de projet universitaire qui met la technologie
+            au service de l’inclusion et de la communication.
+          </p>
+          <p>
+            Notre projet, <strong>VOXI</strong>, est une application mobile imaginée pour
+            que chacun puisse se faire comprendre. Son slogan : <em>« Ma voix, ma liberté. »</em>
+          </p>
+          <a class="btn" href="#projet">Découvrir VOXI</a>
+        </div>
+
+        <!-- Illustration : bulle de dialogue avec ondes sonores (SVG simple) -->
+        <div class="hero-visual">
+          <svg viewBox="0 0 320 280" role="img" aria-labelledby="hero-svg-title">
+            <title id="hero-svg-title">Une bulle de dialogue contenant des ondes sonores, symbole de la voix et de la communication</title>
+            <!-- Bulle principale -->
+            <path d="M40 40h180a24 24 0 0 1 24 24v96a24 24 0 0 1-24 24h-92l-48 40v-40H40a24 24 0 0 1-24-24V64a24 24 0 0 1 24-24z" fill="#16B8A6"/>
+            <!-- Ondes sonores (barres) -->
+            <g fill="#FFFFFF">
+              <rect x="64"  y="96" width="12" height="32" rx="6"/>
+              <rect x="92"  y="78" width="12" height="68" rx="6"/>
+              <rect x="120" y="60" width="12" height="104" rx="6"/>
+              <rect x="148" y="84" width="12" height="56" rx="6"/>
+              <rect x="176" y="70" width="12" height="84" rx="6"/>
+              <rect x="204" y="98" width="12" height="28" rx="6"/>
+            </g>
+            <!-- Seconde bulle : réponse de l'interlocuteur -->
+            <path d="M196 196h72a20 20 0 0 1 20 20v20a20 20 0 0 1-20 20h-8v26l-32-26h-32a20 20 0 0 1-20-20v-20a20 20 0 0 1 20-20z" fill="#123B5D"/>
+            <circle cx="206" cy="226" r="6" fill="#FFFFFF"/>
+            <circle cx="232" cy="226" r="6" fill="#FFFFFF"/>
+            <circle cx="258" cy="226" r="6" fill="#FFFFFF"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SECTION À PROPOS DE VOXI ===== -->
+    <section id="projet" class="section section-light">
+      <div class="container">
+        <h2>À propos de VOXI</h2>
+
+        <div class="two-col">
+          <div>
+            <p class="lead">
+              VOXI est une application mobile conçue pour faciliter la communication des
+              personnes muettes ou rencontrant des difficultés à parler.
+            </p>
+            <p>
+              L’utilisateur saisit un message ou sélectionne des éléments visuels. L’application
+              transforme ensuite ce message en parole audible, pour que son interlocuteur
+              comprenne mieux ses besoins et ses intentions.
+            </p>
+            <p>
+              Au quotidien, ne pas pouvoir parler complique des gestes simples : demander de
+              l’aide, s’exprimer en classe, se faire comprendre dans un commerce ou en famille.
+              VOXI ambitionne de répondre à ces situations et de favoriser l’autonomie,
+              l’inclusion sociale et l’accès à l’éducation.
+            </p>
+            <p class="note">
+              VOXI est actuellement au stade de projet universitaire : les fonctionnalités
+              ci-contre décrivent ce que nous prévoyons de concevoir.
+            </p>
+          </div>
+
+          <!-- Fonctionnalités prévues -->
+          <ul class="feature-list" aria-label="Fonctionnalités prévues de VOXI">
+            <li>
+              <h3>Du texte à la parole</h3>
+              <p>Conversion prévue du texte écrit en parole audible.</p>
+            </li>
+            <li>
+              <h3>Images et pictogrammes</h3>
+              <p>Sélection d’images et de pictogrammes pour composer un message.</p>
+            </li>
+            <li>
+              <h3>Phrases prédéfinies</h3>
+              <p>Utilisation de phrases prêtes à l’emploi pour gagner du temps.</p>
+            </li>
+            <li>
+              <h3>Échanges du quotidien</h3>
+              <p>Un outil pensé pour faciliter les conversations de la vie courante.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SECTION NOS OBJECTIFS ===== -->
+    <section id="objectifs" class="section">
+      <div class="container">
+        <h2>Nos objectifs</h2>
+        <p class="section-intro">Trois engagements guident la conception de VOXI.</p>
+
+        <div class="card-grid goals">
+          <article class="card">
+            <h3>Faciliter la communication</h3>
+            <p>Permettre aux utilisateurs d’exprimer leurs besoins et leurs idées.</p>
+          </article>
+          <article class="card">
+            <h3>Favoriser l’inclusion</h3>
+            <p>Contribuer à une meilleure participation sociale et éducative.</p>
+          </article>
+          <article class="card">
+            <h3>Renforcer l’autonomie</h3>
+            <p>Proposer des moyens de communication simples et accessibles au quotidien.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SECTION NOTRE ÉQUIPE ===== -->
+    <section id="equipe" class="section section-light">
+      <div class="container">
+        <h2>Notre équipe</h2>
+        <p class="section-intro">Six étudiants réunis autour d’un même projet.</p>
+
+        <!-- Grille des six membres : photos dans le dossier images/ (image-1.jpg à image-6.jpg) -->
+        <div class="card-grid team">
+          <article class="card member">
+            <img class="photo" src="images/image-1.jpg" alt="Photo de Daniel, membre de l’équipe IMPACT TECH" width="120" height="120" loading="lazy">
+            <h3>Daniel</h3>
+            <p class="role">Chef d’équipe</p>
+          </article>
+          <article class="card member">
+            <img class="photo" src="images/image-2.jpg" alt="Photo de Audrey, membre de l’équipe IMPACT TECH" width="120" height="120" loading="lazy">
+            <h3>Audrey</h3>
+            <p class="role">Chargée de recherche du projet</p>
+          </article>
+          <article class="card member">
+            <img class="photo" src="images/image-3.jpg" alt="Photo de Adjoua, membre de l’équipe IMPACT TECH" width="120" height="120" loading="lazy">
+            <h3>Adjoua</h3>
+            <p class="role">Présentatrice du projet</p>
+          </article>
+          <article class="card member">
+            <img class="photo" src="images/image-4.jpg" alt="Photo de Johan, membre de l’équipe IMPACT TECH" width="120" height="120" loading="lazy">
+            <h3>Johan</h3>
+            <p class="role">Superviseur</p>
+          </article>
+          <article class="card member">
+            <img class="photo" src="images/image-5.jpg" alt="Photo de Nda, membre de l’équipe IMPACT TECH" width="120" height="120" loading="lazy">
+            <h3>Nda</h3>
+            <p class="role">Chargé des finances</p>
+          </article>
+          <article class="card member">
+            <img class="photo" src="images/image-6.jpg" alt="Photo de Fatoumata, membre de l’équipe IMPACT TECH" width="120" height="120" loading="lazy">
+            <h3>Fatoumata</h3>
+            <p class="role">Chargée de recherche adjointe</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SECTION DE CONCLUSION ===== -->
+    <section class="conclusion" aria-label="Notre vision">
+      <div class="container">
+        <blockquote>
+          Chez IMPACT TECH, nous croyons que chacun mérite d’être entendu. Avec VOXI,
+          nous imaginons une communication plus accessible, plus inclusive et plus humaine.
+        </blockquote>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== PIED DE PAGE ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer-name">IMPACT TECH</p>
+      <p>VOXI — Ma voix, ma liberté.</p>
+      <p class="copyright">© 2026 IMPACT TECH. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
